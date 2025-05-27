@@ -15,7 +15,34 @@
   </style>
 </head> -->
 <body>
+  <h2>🚀 Cara Clone dan Menjalankan Proyek Laravel</h2>
+  <pre><code>
+# 1. Clone repository
+git clone https://github.com/namauser/nama-repo.git
+cd nama-repo
 
+# 2. Install dependencies
+composer install
+
+# 3. Copy file environment
+cp .env.example .env
+
+# 4. Generate application key
+php artisan key:generate
+
+# 5. Konfigurasi .env (database, mail, dll)
+
+# 6. Jalankan migrasi dan seeding jika diperlukan
+php artisan migrate --seed
+
+# 7. Jalankan server lokal
+php artisan serve
+
+# 8. Jalankan queue jika menggunakan antrian
+php artisan queue:work
+  </code></pre>
+
+  <p><strong>Catatan:</strong> Pastikan Anda sudah mengatur database, storage link (<code>php artisan storage:link</code>), dan Laravel Sanctum untuk autentikasi token.</p>
   <h1>🧭 Dokumentasi API Routes – Laravel Backend</h1>
   <p>Semua endpoint dilindungi oleh <strong>Laravel Sanctum</strong> dan menggunakan <strong>middleware RBAC</strong>.</p>
 
