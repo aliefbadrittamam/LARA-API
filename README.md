@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
+<!-- <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dokumentasi API - Laravel Backend</title>
@@ -13,7 +13,7 @@
     code { background: #eee; padding: 0.2rem 0.4rem; border-radius: 4px; }
     pre { background: #f9f9f9; padding: 1rem; border-left: 4px solid #ccc; overflow: auto; }
   </style>
-</head>
+</head> -->
 <body>
 
   <h1>🧭 Dokumentasi API Routes – Laravel Backend</h1>
